@@ -11,5 +11,5 @@ docker service create \
   --secret source=rsync_ssh_key,mode=0600 \
   --mount type=volume,source=nethermind-compose_nethermind,destination=/nethermind/nethermind_db \
   --env NETHERMIND_SYNC_SERVER=A.B.C.D \
-  docker pull ghcr.io/micahzoltu/nethermind-with-plugins-rsync:1.10.56-6.0.1-3.0.1-1
+  ghcr.io/micahzoltu/nethermind-with-plugins-rsync:1.10.56-6.0.1-3.0.1-1
 ```
