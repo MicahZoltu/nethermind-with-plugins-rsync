@@ -1,4 +1,5 @@
 #!/bin/bash -x
+set -e
 
 NETHERMIND_DATA_DIR=/nethermind/nethermind_db/mainnet
 LAUNCH_NETHERMIND="exec ./Nethermind.Runner"
